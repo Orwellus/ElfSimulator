@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name" : "Elf Simulator",
+    "version" : "0.5",
+    "browser_action":{
+        "default_icon": "elfik.png"
+    },
+    "content_scripts": [
+        {
+           "matches": [
+               "<all_urls>"
+           ],
+           "js": ["content.js"]
+           }
+    ]
+}
